@@ -10,6 +10,27 @@ This project is an automated testing framework for the [Tutorials Ninja Demo Web
 
 ---
 
+📂 TutorialsNinjaAutomation
+├── 📂 tests
+│   ├── test_login.py
+│   ├── test_cart.py
+│   ├── test_checkout.py
+│   └── init.py
+├── 📂 pages
+│   ├── login_page.py
+│   ├── cart_page.py
+│   ├── checkout_page.py
+│   └── init.py
+├── 📂 utils
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── logger.py
+│   └── init.py
+├── requirements.txt
+├── conftest.py
+├── pytest.ini
+└── README.md
+
 ## 🔥 Key Features
 - Automated UI testing using Selenium WebDriver
 - Data-Driven Testing (DDT) implementation
